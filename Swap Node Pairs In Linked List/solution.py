@@ -1,8 +1,6 @@
-
-
 def swap_pairs(head):
-    dummy = Node(next=head)
-    current = dummy
+    new = Node(next=head)
+    current = new
     while current.next and current.next.next:
         first = current.next
         second = current.next.next
@@ -10,4 +8,4 @@ def swap_pairs(head):
         first.next = second.next
         second.next = first
         current = first
-    return dummy.next
+    return new.next
