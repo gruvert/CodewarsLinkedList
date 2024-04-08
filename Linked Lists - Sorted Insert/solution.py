@@ -14,3 +14,5 @@ def sorted_insert(head, data):
         current = current.next
     result.next = current.next
     current.next = result
+    
+    return head
