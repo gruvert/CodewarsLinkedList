@@ -18,6 +18,6 @@ def get_nth(node, index):
             return node
         count+=1
         node = node.next
-    raise Exception("Index out of range")
+    raise Exception
     
   
