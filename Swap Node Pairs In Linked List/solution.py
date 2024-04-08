@@ -1,3 +1,5 @@
+from preloaded import Node
+
 def swap_pairs(head):
     new = Node(next=head)
     current = new
